@@ -31,6 +31,7 @@ git clone https://github.com/RandomNessan/SyrenBackup.git
 将init.sql.gz导入你创建的数据库。
 
 给init.php文件赋予写入权限，即"666"权限。
+给uploads文件夹赋予被写入和被执行权限，即"777"权限。
 
 导入完成之后访问bbb.com根据提示对数据库进行初始化配置。
 
